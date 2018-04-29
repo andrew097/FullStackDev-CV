@@ -1,7 +1,15 @@
 body {
+    margin: 10px auto;
     width: 1920px;
     min-width: 680px;
     font-size: 18px;
     color: #000000;
     background-color: #ffffff;
+    border: 1px solid orange;
+}
+
+
+.person {
+    text-align: center;
+    text-transform: uppercase;
 }
