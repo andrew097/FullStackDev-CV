@@ -1,8 +1,15 @@
+@font-face {
+    font-family: "MyriadPro";
+    src:
+        url("./fonts/MyriadPro-LightSemiExt.woff") format(woff); 
+}
+
 body {
     margin: 10px auto;
     width: 1920px;
     min-width: 680px;
     font-size: 18px;
+    font-family: "Myriad Pro", "Light SemiExtended";
     color: #000000;
     background-color: #ffffff;
     border: 1px solid orange;
@@ -12,4 +19,9 @@ body {
 .person {
     text-align: center;
     text-transform: uppercase;
+}
+
+.person-name {
+
+    font-size: 82px;
 }
