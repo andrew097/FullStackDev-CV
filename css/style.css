@@ -7,3 +7,9 @@ body {
     background-color: #ffffff;
     border: 1px solid orange;
 }
+
+
+.person {
+    text-align: center;
+    text-transform: uppercase;
+}
