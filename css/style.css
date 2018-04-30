@@ -38,10 +38,12 @@ body::after {
 }
 
 .person-name {
+    margin-top: 40px;
     font-size: 82px;
 }
 
 .person-surname {
+    margin-top: -30px;
     font-weight: bold;
     font-size: 95.58px;
 }
@@ -49,4 +51,18 @@ body::after {
 .person-job {
     font-weight: bold;
     font-size: 37px;
+}
+
+.person-image {
+    margin: 0 auto;
+    position: relative;
+    width: 359px;
+    height: 359px;
+    box-sizing: border-box;
+    background-origin: content-box;
+    background-clip: content-box;
+    background-color: #3d6cb0;
+    border: 2px solid #3d6cb0;
+    border-radius: 50%;
+    padding: 22px;
 }
