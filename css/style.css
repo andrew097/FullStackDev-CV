@@ -25,6 +25,12 @@ body {
     border: 1px solid orange;
 }
 
+body::after {
+    content: "body";
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
 
 .person {
     text-align: center;
@@ -35,7 +41,12 @@ body {
     font-size: 82px;
 }
 
-.person-name span {
+.person-surname {
     font-weight: bold;
     font-size: 95.58px;
+}
+
+.person-job {
+    font-weight: bold;
+    font-size: 37px;
 }
