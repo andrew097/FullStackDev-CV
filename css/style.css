@@ -31,8 +31,8 @@ body::after {
     font-size: 12px;
 }
 
-
 .person {
+    margin: 0 auto;
     text-align: center;
     text-transform: uppercase;
 }
@@ -65,4 +65,24 @@ body::after {
     border: 2px solid #3d6cb0;
     border-radius: 50%;
     padding: 22px;
+}
+
+.section-title {
+    margin-top: 130px;
+    margin-left: 755px;
+    font-size: 63.72px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #3d6cb0;
+}
+
+.profile p {
+    margin: 0 auto;
+    font-size: 23.9px;
+    width: 638px;
+    height: 388px;
+}
+
+.profile p span {
+    font-weight: bold;
 }
