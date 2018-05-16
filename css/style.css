@@ -18,7 +18,8 @@ body {
  }
 
  .container {
-    width: 608px;
+     display: flex;
+    width: 670px;
     margin: 0 auto;
  }
 
@@ -62,22 +63,58 @@ body {
     padding: 22px;
 }
 
+.circle-small {
+    width: 115px;
+    height: 115px;
+    box-sizing: border-box;
+    background-origin: content-box;
+    background-clip: content-box;
+    background-color: #3d6cb0;
+    border: 2px solid #3d6cb0;
+    border-radius: 50%;
+    padding: 5px;
+}
+
 .section-title {
-    margin-top: 130px;
-    margin-left: 755px;
-    font-size: 63.72px;
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 55.67px;
     font-weight: bold;
     text-transform: uppercase;
     color: #3d6cb0;
 }
 
+.profile {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 106px;
+}
+
 .profile p {
-    margin: 0 auto;
     font-size: 23.9px;
     width: 638px;
     height: 388px;
+    margin: 0;
+    margin-top: 16px;
 }
 
 .profile p span {
     font-weight: bold;
+}
+
+.line {
+    height: 7.66px;
+    background-color: #3d6cb0;
+    margin-left: 10px;
+    /* width: 260px; */
+}
+
+.line-profile {
+    width: 260px;
+}
+
+.icon-profile {
+    background-image: url(../svg/ProfileIcon.svg);
+    background-position: center;
 }
