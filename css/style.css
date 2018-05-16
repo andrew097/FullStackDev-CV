@@ -86,6 +86,7 @@ body {
 
 .profile {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     margin-top: 106px;
 }
@@ -94,6 +95,8 @@ body {
     font-size: 23.9px;
     width: 638px;
     height: 388px;
+    margin: 0;
+    margin-top: 16px;
 }
 
 .profile p span {
@@ -109,4 +112,9 @@ body {
 
 .line-profile {
     width: 260px;
+}
+
+.icon-profile {
+    background-image: url(../svg/ProfileIcon.svg);
+    background-position: center;
 }
