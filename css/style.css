@@ -18,15 +18,17 @@ body {
  }
 
  .container {
-     display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     width: 670px;
     margin: 0 auto;
  }
 
 .person {
-    margin: 0 auto;
     text-align: center;
     text-transform: uppercase;
+    flex-direction: column;
 }
 
 .person-name {
@@ -85,9 +87,6 @@ body {
 }
 
 .profile {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     margin-top: 106px;
 }
 
