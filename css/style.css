@@ -1,18 +1,23 @@
 @font-face {
-    font-family: "PTSans-Regular";
-    src: url("../fonts/PTSans-Regular.woff") format("woff");
-    src:
-          url("../fonts/MyriadPro-LightSemiExt.woff") format("woff");
+    font-family: "PTSans";
+    src: url('../fonts/PTSans-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-  }
-  
+}
+
+@font-face {
+    font-family: "PTSans";
+    src: url('../fonts/PTSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
 body {
     margin: 10px auto;
     width: 1920px;
     min-width: 680px;
     font-size: 18px;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'PTSans', sans-serif;
     color: #000000;
     background-color: #ffffff;
  }
@@ -116,4 +121,13 @@ body {
 .icon-profile {
     background-image: url(../svg/ProfileIcon.svg);
     background-position: center;
+}
+
+.contact {
+    margin-top: 55px;
+}
+
+.line-contact {
+    width: 229px;
+    margin-left: 13px;
 }
