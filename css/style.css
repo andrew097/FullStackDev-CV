@@ -136,3 +136,21 @@ body {
     margin-left: 17px;
     margin-top: -7px;
 }
+
+.container-contact-data {
+    width: 100%;
+}
+
+.contact-data {
+    margin-top: 42px;
+    font-size: 31px;
+}
+
+.contact-data span {
+    display: inline-block;
+    text-transform: uppercase;
+    color: #3d6cb0;
+    font-size: 33px;
+    font-weight: bold;
+    width: 30%;
+}
