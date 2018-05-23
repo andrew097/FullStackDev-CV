@@ -203,3 +203,14 @@ body {
     background-color: #E6E6E6;
 }
 
+.skill-level-items .level-teamwork:nth-child(n+12) {
+    background-color: #E6E6E6;
+}
+
+.skill-level-items .level-innovate:nth-child(n+7) {
+    background-color: #E6E6E6;
+}
+
+.skill-level-items .level-communication:nth-child(n+12) {
+    background-color: #E6E6E6;
+}
