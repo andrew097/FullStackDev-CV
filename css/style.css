@@ -169,12 +169,21 @@ body {
     width: 100%;
     text-transform: uppercase;
     text-align: center;
-    margin-top: 31px;
     font-size: 39px;
+    margin-left: -12px;
+}
+
+.skill-title:nth-child(4) {
+    margin-top: 31px;
+}
+
+.skill-title:last-of-type {
+    margin-bottom: -5px;
 }
 
 .skill-items-container {
     width: 100%;
+    margin-top: 31px;
 }
 
 .skill-level-items {
@@ -185,6 +194,22 @@ body {
     padding: 0;
     margin-top: 14px;
     margin-left: -8px;
+}
+
+.skill-level-items:nth-of-type(1) {
+    margin-bottom: 28px;
+}
+
+.skill-level-items:nth-of-type(2) {
+    margin-bottom: 30px;
+}
+
+.skill-level-items:nth-of-type(3) {
+    margin-bottom: 28px;
+}
+
+.skill-level-items:nth-of-type(4) {
+    margin-bottom: 28px;
 }
 
 .skill-level-items .skill-level {
