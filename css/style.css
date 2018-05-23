@@ -154,3 +154,52 @@ body {
     font-weight: bold;
     width: 30%;
 }
+
+.skills {
+    margin-top: 39px;
+}
+
+.line-skills {
+    width: 296px;
+    margin-left: 10px;
+    margin-top: -7px;
+}
+
+.skill-title {
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 31px;
+    font-size: 39px;
+}
+
+.skill-items-container {
+    width: 100%;
+}
+
+.skill-level-items {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    margin-top: 14px;
+    margin-left: -8px;
+}
+
+.skill-level-items .skill-level {
+    width: 26.75px;
+    height: 26.75px;
+    background-color: #3d6cb0;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.skill-level-items .skill-level:nth-child(5n) {
+    margin-right: 20px;
+}
+
+.skill-level-items .level-creative:nth-child(n+10) {
+    background-color: #E6E6E6;
+}
+
